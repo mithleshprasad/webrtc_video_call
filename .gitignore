@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+output.log
+*.log.*
+
+# Database files
+*.sqlite
+*.sqlite-journal
+db.json
+dump.rdb
+*.lock
+
+# Compiled files
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# Docker & Deployments
+docker-compose.override.yml
+.dockerignore
+terraform.tfstate
+terraform.tfstate.backup
+.vagrant/
